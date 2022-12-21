@@ -1,13 +1,9 @@
-import { useRoutes } from "react-router-dom";
-import router from "./router";
+import { useRoutes } from 'react-router-dom'
+import router from './router'
 
 const app = () => {
-    const element = useRoutes(router);
-    return (
-        <>
-            {element}
-        </>
-    )
-};
+  const element = useRoutes(router)
+  return <>{element}</>
+}
 
-export default app;
+export default app
